@@ -6,6 +6,10 @@ import {slides} from "./data/carouselData.json"
 const App = () => {
   return (
     <div className="App">
+   
+
+      
+
       <Carousel data={slides} />
     </div>
   )
