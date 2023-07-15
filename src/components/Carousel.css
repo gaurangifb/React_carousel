@@ -3,8 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
 }
 
 .slide {
@@ -58,4 +59,12 @@
 
 .indicator-inactive {
     background-color: grey;
+}
+
+.carousel img.selected {
+    border: 2px solid yellow;
+  }
+
+h1 {
+    margin: 10px;
 }
